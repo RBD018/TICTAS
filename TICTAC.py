@@ -1,3 +1,5 @@
+#this is TIC tac
+import random
 from IPython.display import clear_output
 
 def display_board(board):
@@ -41,7 +43,7 @@ def win_check(board, mark):
     (board[1] ==  mark and board[5] == mark and board[9] == mark) or
     (board[3] ==  mark and board[5] == mark and board[7] == mark))
 
-import random
+#import random
 
 def choose_first():
     if random.randint(1,2) == 1:
